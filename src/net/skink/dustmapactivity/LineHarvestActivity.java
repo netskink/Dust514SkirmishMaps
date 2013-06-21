@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package net.skink.dustmapsactivity;
+package net.skink.dustmapactivity;
 
-import uk.co.senab.photoview.PhotoViewAttacher;
-import uk.co.senab.photoview.PhotoViewAttacher.OnMatrixChangedListener;
-import uk.co.senab.photoview.PhotoViewAttacher.OnPhotoTapListener;
+import net.skink.myphotoview.PhotoViewAttacher;
+import net.skink.myphotoview.PhotoViewAttacher.OnMatrixChangedListener;
+import net.skink.myphotoview.PhotoViewAttacher.OnPhotoTapListener;
 import android.app.Activity;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;

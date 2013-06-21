@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package net.skink.dustmapsactivity;
+package net.skink.dustmapactivity;
 
-import uk.co.senab.photoview.PhotoViewAttacher;
-import uk.co.senab.photoview.PhotoViewAttacher.OnMatrixChangedListener;
-import uk.co.senab.photoview.PhotoViewAttacher.OnPhotoTapListener;
+import net.skink.myphotoview.PhotoViewAttacher;
+import net.skink.myphotoview.PhotoViewAttacher.OnMatrixChangedListener;
+import net.skink.myphotoview.PhotoViewAttacher.OnPhotoTapListener;
 import android.app.Activity;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
@@ -30,7 +30,7 @@ import android.widget.ImageView.ScaleType;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class LineHarvestActivity extends Activity {
+public class AshlandActivity extends Activity {
 
 	static final String PHOTO_TAP_TOAST_STRING = "Photo Tap! X: %.2f %% Y:%.2f %%";
 
@@ -49,7 +49,7 @@ public class LineHarvestActivity extends Activity {
 		mImageView = (ImageView) findViewById(R.id.iv_photo);
 		mCurrMatrixTv = (TextView) findViewById(R.id.tv_current_matrix);
 
-		Drawable bitmap = getResources().getDrawable(R.drawable.line_harvest);
+		Drawable bitmap = getResources().getDrawable(R.drawable.ashland);
 		mImageView.setImageDrawable(bitmap);
 
 		// The MAGIC happens here!
@@ -132,7 +132,7 @@ public class LineHarvestActivity extends Activity {
 				mCurrentToast.cancel();
 			}
 
-			mCurrentToast = Toast.makeText(LineHarvestActivity.this,
+			mCurrentToast = Toast.makeText(AshlandActivity.this,
 					String.format(PHOTO_TAP_TOAST_STRING, xPercentage, yPercentage), Toast.LENGTH_SHORT);
 			mCurrentToast.show();
 		}

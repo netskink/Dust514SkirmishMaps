@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package uk.co.senab.photoview.sample;
+package net.skink.dustmapsactivity;
 
 import uk.co.senab.photoview.PhotoViewAttacher;
 import uk.co.senab.photoview.PhotoViewAttacher.OnMatrixChangedListener;

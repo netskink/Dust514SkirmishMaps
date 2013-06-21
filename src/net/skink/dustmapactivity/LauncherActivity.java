@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package net.skink.dustmapsactivity;
+package net.skink.dustmapactivity;
 
 import android.app.ListActivity;
 import android.content.Intent;
